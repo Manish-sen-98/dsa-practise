@@ -15,3 +15,12 @@ def fact(n):
     return n*fact(n-1)
 
 print(fact(4))
+
+## Sum of n numbers
+
+def Sum(n):
+    if n==1:
+        return 1
+    return n+Sum(n-1)
+
+print(Sum(4))
